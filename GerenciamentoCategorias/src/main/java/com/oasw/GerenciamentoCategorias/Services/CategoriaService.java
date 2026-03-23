@@ -13,7 +13,7 @@ public class CategoriaService {
     @Autowired
     CategoriaRepository categoriaRepository;
 
-    public CategoriaModel create(CategoriaModel categoriaModel){
+    public CategoriaModel createCategoria(CategoriaModel categoriaModel){
         return categoriaRepository.save(categoriaModel);
     }
 
